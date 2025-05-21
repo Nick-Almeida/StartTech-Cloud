@@ -1,3 +1,13 @@
+-- UX Design & Customer Experience --
+
+UX (User Experience): Trabalha o foco na experiência a partir de serviços ou produtos, como em sites, apps, sistemas...
+
+UI (User Interface): Foco na interface do usuário, na parte visual e interativa.
+
+CX (Customer Experience): Foco em toda a experiência do cliente, da marca até o pós-venda.
+
+BX (Business Experience): Foca em otimizar o negócio, com mais inovação, novas metodologias e tecnologias, planejamento, operação e gestão, para a melhor experiência aos clientes.
+
 -- Design Centrado no Usuário (DCU) --
 
 Atender as necessidades, desejos e preferências dos usuários no processo de design de serviços, produtos, soluções e experiências.
