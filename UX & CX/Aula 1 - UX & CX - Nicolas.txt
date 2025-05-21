@@ -1,4 +1,4 @@
-Design Centrado no Usuário (DCU)
+-- Design Centrado no Usuário (DCU) --
 
 Atender as necessidades, desejos e preferências dos usuários no processo de design de serviços, produtos, soluções e experiências.
 
@@ -17,23 +17,28 @@ Uso intuitivo e acessível para o usuário.
 Acessibilidade:
 Qualquer usuário consegue usar o produto ou participar da experiência, mesmo que tenha diferentes necessidades?
 
-User Research
+-- User Research --
 
 Pesquisa com usuários: Conjunto de métodos, técnicas e processos para entender profundamente os usuários, a partir das suas necessidades, motivações, comportamentos, dores, expectativas e contexto de uso.
 Em vez de criar com base em suposições, a equipe de UX/CX coleta dados qualitativos e quantitativas diretamente dos usuários.
 
-Heurística
+-- Heurística --
 
 Heurísticas são como o "exame clínico" de usabilidade: rápidas, acessíveis e capazes de encontrar a maior parte dos sintomas. Mas, para um diagnóstico completo, combine testes com usuários, analytics.
 
-Jornada do cliente
+-- Jornada do cliente --
 
 É de fundamental relevância nas organizações.
 
-Elementos da jornada do cliente
+-- Elementos da jornada do cliente --
 
 Persona -> Canais -> Pontos de contato -> Emoções -> linha do tempo
 
-Persona x Público Alvo
+-- Persona x Público Alvo --
 
 No passado, as marcas trabalhavam com público-alvo, usando dados mais focados em idade, escolaridade, renda etc. Mas, depois, o mercado entendeu que o comportamento define as vendas e passou a aprofundar este estudo com as personas.
+
+-- A jornada não acaba na venda --
+
+A jornada do cliente não acaba depois da venda. Neste momento que começa a fase mais estratégica, rumo a fidelização.
+É hora de atuar no pós venda, e no conceito e Sucesso do cliente (CS - Customer Sucess).
