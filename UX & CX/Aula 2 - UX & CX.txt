@@ -1,0 +1,73 @@
+-- Wireframe --
+
+Uma das partes mais relevantes do UX, traz uma representação visual básica da solução. Esboço de uma página, tela, ou fluxo de um produto digital.
+
+-- importância no processo de UX / CX --
+
+- Facilitar o trabalho de design.
+- Corrigir o Layout, pois nesta etapa custa menos que arrumar código e UI.
+- Testar se a hierarquia funciona para o usuário.
+- Deixar claro o que cada tela precisa conter, alinhando design, produto e desenvolvimento.
+- Facilitar a criação do protótipo navegável, pois basta adicionar interações, agilizando os testes de usabilidade.
+- Trazer mais clareza para a definição de funcionalidades.
+
+-- Wireframe, mock up e protótipo --
+
+Enquanto o wireframe é o "esqueleto" da solução, o mock up é uma representação praticamente final (já com cores e ícones, por exemplo).
+
+A versão funcional, navegável, é o protótipo.
+
+O wireframe ajuda muito os desenvolvedores a entender o projeto. O mock up pode ser usado para vender a solução antes mesmo de estar funcional. O protótipo pode ser aplicado em testes de usabilidade.
+
+-- Ferramentas --
+
+- Papel e caneta
+- Miro
+- Proto.io
+- PPT / Google apresentações / Canva
+- Figma
+- InVision
+- Adobe XD
+- Sketche
+- Webflow
+- Axure RP
+
+-- Arquitetura da informação --
+
+Organiza e estrutura o conteúdo de uma solução digital, seja um software, app, site, chatbot etc.
+A arquitetura da informação deve garantir que as pessoas encontrem o que precisam de forma clara, rápida e intuitiva.
+Nesta etapa que se define onde estará cada informação, como se conectará às demais e o caminho que o usuário fará chegar lá, antes mesmo de desenharmos telas ou escolhermos cores.
+
+-- Componentes --
+
+- Organização
+Agrupa conteúdos em categorias e escolher modelo lógico (hierarquia, cronologia, etc).
+
+- Rotulagem (labeling)
+Nomes dos elementos de navegação, botões e seções, além de tags para pesquisa e categorização.
+
+- Navegação
+Menus, filtros, links, padrões de interação, etc.
+
+- Busca e Recuperação
+Campos de pesquisa, sugestões automáticas, sinônimos.
+
+- Fluxos e Hierarquia de conteúdo
+Caminhos principais e o que é mais importantes em cada tela para o usuário.
+
+-- Design Visual --
+
+- Hierarquia visual
+Elementos importantes que facilitam a compreensão e a navegação.
+
+- Espaçamento
+Espaço de forma estratégica para criar um layout organizado e agradável.
+
+- Cor e tipografia
+Cores e fontes alinhados a identidade da marca e que garantam boa leitura.
+
+- Composição e layout
+Elementos que se complementam para facilitar a interação do usuário.
+
+- Imagens e ícones
+Imagens e ícones para ajudar nas informações e uso mais intuitivo.
