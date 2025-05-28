@@ -1,0 +1,74 @@
+-- Métricas em CX --
+
+- Número de visitantes frequentes e únicos: Mede quantas pessoas acessam o site, diferenciando entre novos visitantes e aqueles que retornam.
+
+- Fontes de tráfego: Indica de onde vêm os visitantes, como redes sociais, busca orgânica, anúncios, etc.
+
+- Taxa de rejeição: Percentual de usuários que saem do site após visualizar apenas uma página.
+
+- Taxa de conversação: Proporção de visitantes que realizam uma ação desejada, como uma compra ou cadastro.
+
+- Taxa de clique: Percentual de pessoas que clicam em um link ou anúncio em relação ao total de visualizações.
+
+- Custo de aquisição do cliente: Valor médio gasto para conquistar um novo cliente.
+
+- Tíquete médio: Valor médio gasto por cliente em cada compra.
+
+- Abandono de carrinho: Percentual de clientes que adicionam produtos ao carrinho, mas não finalizam a compra.
+
+- SLA de suporte: Tempo médio de resposta e resolução de chamados no atendimento ao cliente.
+
+- Receita mensal recorrente: Valor previsível de receita gerada mensalmente, comum em modelos de assinatura.
+
+- Cliques: Número total de vezes que links ou botões foram clicados.
+
+- Seguidores: Quantidade de pessoas que acompanham a marca nas redes sociais.
+
+- Compartilhamento: Número de vezes que conteúdos da marca foram compartilhados por usuários.
+
+- Instalação de apps: Quantidade de vezes que o aplicativo da empresa foi instalado.
+
+- Indicações: Número de novos clientes que chegaram por recomendação de outros clientes.
+
+- Churn (Saída de clientes): Percentual de clientes que cancelam ou deixam de usar o serviço em determinado período.
+
+-- Blueprint service --
+
+Quem nunca se sentiu perdido em uma experiência de compra ou teve que repetir seus dados para diversas pessoas diferentes a cada redirecionamento?
+
+O Blueprint Service veio para que cenas como estas não aconteçam mais nas organizações, para que a experiência na jornada do cliente seja fluida e positiva, para que as empresas possam ter uma visão completa da jornada, do ponto de vista do cliente, do usuário.
+
+Com o Blueprint service, a organização pode visualizar, em um mapa, todas as pessoas (incluindo fornecedores terceirizados), processos e evidências (físicas e digitais) ligadas à jornada do cliente.
+
+-- Plataformas em CX --
+
+- Zendesk
+- Movidesk
+- Hubspot
+- RDSation
+- Oktadesk
+- Track.co
+
+-- Tendências CX --
+
+Além de ganhar performance com as plataformas certas, podemos alinhas as iniciativas de CX às tendências de mercado, para mais resultados.
+
+- Personalização: Os clientes esperam esperiências altamente personalizadas. As empresas estão utilizando dados e análises avançadas para oferecer recomendações e conteúdos personalizados de acordo com os comportamentos dos clientes.
+
+- Automação: A automação de processos (RPA) está se tornando mais inteligente com o uso crescente da IA.
+
+- Experiência omnichannel aprimorada: A abordagem omnichannel, que oferece uma experiência consistente em todos os canais, está se aprimorando. As empresas estão investindo em integração de dados e sistemas, permitindo uma transiçãosuave entre canais.
+
+- Voz do cliente em tempo real: A coleta e a análise de feedback do cliente em tempo real estão se tornando cada vez mais populares. As empresas estão utilizando pesquisas, análises de sentimento e monitoramento das mídias sociais para capturar as opniões dos clientes em tempo real e agir rapidamente para melhorar a experiência.
+
+- CX baseada em dados: O uso de dados está se tornando essencial para entender a CX. Organizações estão coletando e analisando dados em tempo real para obter insights sobre o comportamento do cliente.
+
+- Foco na CX dos funcionários: Muitas organzações estão percebendo que a experiência dos funcionários (EX) tem um impacto direto na CX. Elas estão investindo em programas de engajamento de time, treinamento, desenvolvimento de habilidades e um ambiente de trabalho positivo para fornecer um atendimento de maior qualidade.
+
+-- Webrooming --
+
+Processo que tem início em pesquisas na internet e acaba a compra em lojas físicas.
+
+-- Showrooming --
+
+De forma contrária, o Showrooming leva o cliente até a loja física, para ter a experiência do showroom e então comprar online, sem se preocupar com sacolas.
