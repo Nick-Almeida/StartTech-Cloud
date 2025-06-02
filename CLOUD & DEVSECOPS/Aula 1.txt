@@ -1,0 +1,55 @@
+-- O que é computação em nuvem? --
+
+- Fornecimento de recursos de TI (Servidores, armazenamento, banco de dados, rede, software) via internet.
+- Permite acesso sob demanda escalável e pago conforme uso.
+
+-- Evolução da computação --
+
+- ON-PREMISE
+Infraestrutura local, alto custo e manutenção.
+
+- VIRTUALIZAÇÃO
+Consolidação de servidores físicos.
+
+- CLOUD COMPUTING
+Elasticidade, agilidade e foco no negócio.
+
+-- Características de Cloud --
+
+- Autoatendimento sob demanda
+- Acesso amplo à rede
+- Pooling de recursos
+- Elasticidade rápida
+- Serviço mensurado pay-per-use
+
+- Escalibilidade sob demanda
+Conseguimos consumir mais recuso conforme a necessidade momentânea dos serviços em execução da empresa.
+
+- Alta disponibilidade e resiliência
+disponibilidade em múltiplas regiões no planeta, possibilitanto migras ou utilizar mais de uma região para execução das aplicações.
+
+- Redução de custos operacionais
+Redução de custos com monitoramento, provisionamento e recuperação de recursos em cado de indisponibilidade ou desastre.
+
+- Agilidade na entrega de soluções
+Serviços prontos para uso, facilmente configurável, independente de qualquer outro meio ou recurso além do painel de administração da cloud.
+
+-- Desafios e limitações --
+
+- Segurança e privacidade.
+- Conectividade e latência.
+- Conformidade com lesgislações locais.
+
+-- Provedores de nuvem --
+
+- Amazon Web Services
+- Microsoft Azure
+- Google Cloud Platform
+- Oracle Cloud
+- Magalu Cloud
+
+-- Atividade em Sala --
+
+- Como a nuvem impacta o seu dia a dia?
+
+De forma geral, acreditamos que a nuvem impacta imensamente tanto diretamente (drive, photos, git) quanto indiretamente (Netflix, spotify, youtube). O uso da nuvem facilitou e acelerou a maioria dos aspectos do nosso cotidiano. Eventos simples que normalmente levariam horas, podem ser feitos em poucos minutos.
