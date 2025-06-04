@@ -1,0 +1,32 @@
+-- Modelos de serviço --
+
+- IaaS (Infrastructure as a Service), Infraestrutura (EC2, Azure VM, GCE)
+• Fornece servidores, redes, armazenamento e VMs sob demanda
+• Mais flexível, mas exige gestão técnica
+• Ideal para desenvolvedores e sysadmins
+
+Benefício: Prático --- Desafio: Pouca personalização
+
+- PaaS (Platform as a Service), Plataforma de Aplicação (Heroku, App Engine, Elastic Beanstalk)
+• Fornece ambiente para desenvolvimento e deploy
+• Sem necessidade de gerenciar VMs, SO, middleware
+• Foco total no código de aplicação
+
+Benefício: Rápido para DEV --- Desafio: Menos controle
+
+- SaaS (Software as a Service), Softwares prontos (Gmail, Office 365, Salesforce)
+• Aplicações prontas, acessíveis via navegador
+• Usuário final só consome o serviço
+• Sem controle sobre infraestrutura
+
+Benefício: Flexível, escalável --- Desafio: Complexidade na gestão
+
+-- Atividade em Sala --
+
+- Liste serviços que você já usou e identifique o Modelos
+
+SaaS - Netflix, Spotify, Amazon Prime, Gamepass
+
+PaaS - WordPress, VSCode
+
+IaaS - VMware, GCP
