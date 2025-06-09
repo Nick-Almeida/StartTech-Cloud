@@ -1,0 +1,35 @@
+-- Armazenamento em nuvem e Data centers --
+
+• Um dos pilares da nuvem
+• Permite guardar e acessar dados de forma escalável, segura e econômica.
+
+-- Tipos de armazenamento em nuvem --
+
+- Armazenamento de objetos
+(Ideal para arquivos, backups, imagens, vídeos, logs. Alta durabilidade com acesso via HTTP/HTTPS [REST API]. Bucket, objetos, políticas de acesso)
+• AWA S3
+• Azure Blob
+• GCP Cloud Storage
+
+- Armazenamento em Bloco
+(Utilizado por sistemas operacionais e bancos de dados, equivale a um "disco rígido" virtual, Alta performance e baixa latência)
+• EBS
+• Azure Disk
+• GCP Persistent Disk
+
+- Armazenamento de Arquivos
+(Compartilhamento de arquivos via rede [NFS/SMB], multiacesso simultâneo entre instâncias, escalável e gerenciado)
+• EFS
+• Azure Files
+• GCP Filestone
+
+-- Conceitos de Data Center --
+
+- Conjunto físico de servidores, rede, energia, resfriamento.
+- Região: localização geográfica (Ex: US-EAST-1)
+- Zona de disponibilidade: Data centers redundantes em uma mesma região.
+
+- Alta disponibilidade e replicação
+• Replicação de dados
+• Entre zonas e regiões
+• Versionamento, ciclo de vida e políticas de arquivamento (Ex: S3 Glacier)
