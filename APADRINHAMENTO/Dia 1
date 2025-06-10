@@ -1,0 +1,12 @@
+-- Modelo OSI --
+
+O Modelo OSI (Open Systems Interconnection) é um padrão de referência criado pela ISO para facilitar a comunicação entre diferentes sistemas de redes. Ele divide o processo de comunicação em 7 camadas, cada uma com funções específicas:
+
+Física: Transmissão de bits brutos pelo meio físico.
+Enlace de Dados: Detecção e correção de erros na transmissão.
+Rede: Roteamento de pacotes entre redes.
+Transporte: Garantia de entrega dos dados, controle de fluxo e correção de erros.
+Sessão: Gerenciamento de sessões de comunicação entre aplicações.
+Apresentação: Tradução, criptografia e compressão dos dados.
+Aplicação: Interface direta com o usuário e aplicações de rede.
+Esse modelo ajuda a padronizar e entender como os dados trafegam em uma rede, facilitando a interoperabilidade entre diferentes fabricantes e tecnologias.
