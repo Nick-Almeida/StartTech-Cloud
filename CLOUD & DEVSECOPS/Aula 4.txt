@@ -1,0 +1,69 @@
+-- Máquinas virtuais e containers --
+
+- Duas formas principais de executar aplicações na nuvem
+
+• VM: Ambientes completos e isolados
+• Containers: Leves, rápidos e portáteis
+
+--------------------------------------------------------------------------------------
+- Máquinas Virtuais (VMs)
+• Emulam hardware completos
+• Contêm SO, bibliotecas e aplicações
+• Boot mais lento, mas alta compatibilidade
+
+- Exemplos
+• AWS EC2
+• Azure Virtual Machines
+• Google Compute Engine
+
+Vantagens                                   |   Desvantagens
+• Total isolamento                          |   • Maior uso de recursos
+• Controle completo                         |   • Tempo de inicialização mais alto
+• Suporte a diversos sistemas operacionais  |
+
+--------------------------------------------------------------------------------------
+- Containers
+• Ferramentas: Docker, Podman
+• Empacotam apenas o necessário para rodar uma aplicação
+• Compartilham o Kernel do SO
+• Extremamente leves e rápidos
+
+Vantagens                                   |   Desvantagens
+• inicialização quase instantânea           |   • Menor isolamente que VMs 
+• Alta portabilidade                        |   • Dependem do SO hospedeiro
+• Eficiência no uso de recursos             |
+
+-- Quando usar cada um --
+
+Vms                                     |   Containers
+• Precisa de um SO completo             |   • Precisa de agilidade
+• Necessita isolar workloads pesados    |   • Quer escalar rapidamente
+                                        |   • Vai usar CI/CD e Devops
+
+--------------------------------------------------------------------------------------
+- CI (Continuous Integration)
+• É a prática de integrar frequentemente as alterações de código de diferentes desenvolvedores em um repositório compartilhado, geralmente várias vezes por dia. Cada integração é automaticamente verificada por meio de testes automatizados para detectar erros e conflitos o mais cedo possível.
+
+- CD (Continuous Delivery/Deployment)
+• É a automatização do processo de entrega e implantação do software em ambientes de teste e produção. A entrega contínua envolve a preparação e liberação do código para produção, enquanto a implantação contínua automatiza o lançamento do software em produção.
+
+- Benefícios
+• Aumento da velocidade de lançamento:
+A automação permite que as alterações de código sejam integradas, testadas e implantadas muito mais rapidamente.
+
+• Melhora da qualidade do software:
+Os testes automatizados ajudam a detectar erros e problemas de integração precocemente, evitando que eles se espalhem para produção.
+
+• Melhora da colaboração:
+A CI/CD facilita a colaboração entre as equipes de desenvolvimento e operações, criando um ciclo de feedback mais rápido e eficiente.
+
+• Redução de custos:
+A automação reduz o tempo e esforço necessários para o desenvolvimento e entrega de software, o que pode resultar em redução de custos.
+
+-- Atividade em Sala --
+
+1 - Já utilizei em casa, sem fins exatos, apenas para testar e descobrir como funciona. Também presenciei o funcionamento e como são divididas as VMs dos clientes da Totvs, desde a compra até a configuração de VPNs.
+
+2 - O modelo ideial seria o container, pois a API utilizará menos poder computacional e não demanda um SO somente para ela.
+
+3 - O modelo ideal seria uma VMs, pois um grande sistema seria hospedado em uma VM própria, visto que containers isolados não teriam capacidade de processamaneto.

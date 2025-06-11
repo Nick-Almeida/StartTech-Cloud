@@ -1,0 +1,57 @@
+-- Modelo OSI --
+
+O modelo OSI (Open Systems Interconnection) é um modelo de referência que descreve como a comunicação entre diferentes sistemas de computadores e redes de computadores é organizada e realizada. É um modelo abstrato, dividindo a comunicação em sete camadas, cada uma com funções específicas e responsabilidades distintas. 
+As sete camadas do modelo OSI são:
+
+1. Camada Física:
+Define as características físicas da rede, como cabos, conectores e sinal de comunicação.
+
+2. Camada de Enlace de Dados:
+Responsável por transmitir dados entre nós adjacentes na rede, garantindo a entrega correta dos pacotes.
+
+3. Camada de Rede:
+Encaminha os dados entre redes diferentes, usando endereços IP para identificar os destinos.
+
+4. Camada de Transporte:
+Garante a entrega confiável dos dados entre os processos, utilizando protocolos como TCP e UDP.
+
+5. Camada de Sessão:
+Gerencia as conexões entre os processos, estabelecendo, mantendo e terminando as sessões.
+
+6. Camada de Apresentação:
+Formata e converte os dados para que sejam entendidos pelos processos, tratando aspectos como codificação e criptografia.
+
+7. Camada de Aplicação:
+Interage com o usuário e os aplicativos, fornecendo os serviços de rede.
+
+O modelo OSI serve como uma referência para a construção de redes e protocolos, ajudando a entender e solucionar problemas de comunicação em redes.
+
+-- rfc 1918 --
+
+A RFC 1918 define os blocos de endereços IP reservados para uso em redes privadas, ou seja, endereços que não são roteados na internet pública. Esses endereços são usados em redes internas de empresas, residências e organizações para facilitar a comunicação local sem consumir endereços IP públicos. Os blocos definidos pela RFC 1918 são:
+
+10.0.0.0 a 10.255.255.255
+172.16.0.0 a 172.31.255.255
+192.168.0.0 a 192.168.255.255
+
+Esses endereços ajudam a economizar espaço de endereçamento global e aumentam a segurança das redes internas, pois não são acessíveis diretamente da internet.
+
+-- SNAT/DNAT --
+
+SNAT (Source Network Address Translation) e DNAT (Destination Network Address Translation) são técnicas de tradução de endereços de rede usadas em roteadores e firewalls para modificar os endereços IP nos pacotes de dados.
+
+SNAT altera o endereço IP de origem dos pacotes, geralmente para permitir que vários dispositivos de uma rede interna acessem a internet usando um único IP público.
+
+DNAT altera o endereço IP de destino dos pacotes, normalmente para direcionar conexões externas para um servidor específico dentro da rede interna.
+
+-- NSX --
+
+Plataforma de virtualização de redes da VMware. Ela permite criar, gerenciar e automatizar redes virtuais dentro de ambientes de data center, independentemente da infraestrutura física. Com o NSX, é possível implementar funções como roteamento, firewall, VPN, balanceamento de carga e microsegmentação de forma totalmente virtualizada, aumentando a segurança, flexibilidade e agilidade das redes corporativas.
+
+-- Vultr --
+
+(Provedora de serviços de computação em nuvem). Calculadora de IPV4 e IPv6, que permite aos usuários calcular sub-redes, endereços de rede, broadcast e outros detalhes relacionados ao endereçamento IP. É uma ferramenta útil para administradores de rede e profissionais de TI que precisam planejar e gerenciar endereços IP em suas redes.
+
+-- Wireshark --
+
+Analisador de protocolos de rede amplamente utilizado para capturar e inspecionar pacotes de dados que trafegam em uma rede. Ele permite que os usuários visualizem o tráfego em tempo real, analisem protocolos, identifiquem problemas de rede e realizem depuração.
