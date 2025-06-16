@@ -28,10 +28,10 @@ Vantagens                                   |   Desvantagens
 • Compartilham o Kernel do SO
 • Extremamente leves e rápidos
 
-Vantagens                                   |   Desvantagens
-• inicialização quase instantânea           |   • Menor isolamente que VMs 
-• Alta portabilidade                        |   • Dependem do SO hospedeiro
-• Eficiência no uso de recursos             |
+Vantagens                               |   Desvantagens
+• inicialização quase instantânea       |   • Menor isolamente que VMs 
+• Alta portabilidade                    |   • Dependem do SO hospedeiro
+• Eficiência no uso de recursos         |
 
 -- Quando usar cada um --
 

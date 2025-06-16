@@ -1,0 +1,49 @@
+-- Orquestração e escalabilidade na nuvem --
+
+• Orquestração
+Automação de implantação, gerenciamento e escalonamento de aplicações.
+
+• Escalabilidade
+Aumentar ou reduzir recursos conforme demanda.
+
+- Tipos de escalabilidade
+
+• Vertical (scale-up): Mais recursos em uma instância (Aumentar CPU de uma VM)
+• Horizontal (scale-out): Adicionar mais instâncias (Adicionar mais VMs ao cluster)
+
+- Balanceamento de carga (Load balancer)
+
+• Distribui requisições entre múltiplas instâncias.
+• Aumenta o desempenho e disponibilidade.
+• AWS Elastic Load Balancing, Azure Load balancer, GCP Load Balancing.
+
+- Auto scaling
+
+• Ajusta automaticamente a quantidade de recursos.
+• Baseado em métricas: CPU, tráfego, requisições.
+• AWS Auto Scaling groups, AZURE VM scale sets, GCP instance grous.
+
+-- Introdução à orquestração de container --
+
+• Ferramentas como kubernetes, docker swarm.
+• Gerenciam containers em larga escala.
+• Fazem deploy, escalam e monitoram servições aotomaticamente.
+
+-- Conceitos do Kubernetes (K8S) --
+
+• Pod, node, cluster, deployment, service.
+• YAML para definir infraestrutura declarativa.
+• Kubectl para gerenciamento.
+
+- Benefícios da orquestração
+
+• Alta disponibilidade
+• Autorreparo
+• Escalabilidade sob demanda
+• Uso otimizado de recursos
+
+-- Atividade em sala --
+
+1 - Quando existe limitação física para aumentar recursos de uma única máquina (CPU, memória).
+
+2 - Pois o kubernetes automatiza ações e gerenciamentos, reduzindo a chance de erro. kubernetes é mais ágil e confiável que scripts manuais.
