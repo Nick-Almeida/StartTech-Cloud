@@ -1,0 +1,12 @@
+apt update - verifica se tem update
+apt upgrade - faz o update
+apt install docker
+apt install docker-compose
+docker --version
+docker-compose --version
+docker ps
+portainer - app
+cd - navega as pastas
+dir - mostra os conteúdos da pasta
+mkdir - cria pasta
+vim docker-compose.yml
