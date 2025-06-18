@@ -1,0 +1,9 @@
+-- Redundância e alta disponibilidade --
+
+• Redundância: Ter múltiplos recursos disponíveis como backup (servidores, zonas, discos).
+
+• Alta disponibilidade (HA): Capacidade do sistema de permanecer acessível mesmo diante de falhas.
+
+- SLA (Service Level Agreement)
+• Define o nível de disponibilidade garantido pelo provedor
+• Relacionado ao tempo de funcionamento esperado por mês/ano
