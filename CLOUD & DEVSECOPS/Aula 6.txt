@@ -7,3 +7,26 @@
 - SLA (Service Level Agreement)
 • Define o nível de disponibilidade garantido pelo provedor
 • Relacionado ao tempo de funcionamento esperado por mês/ano
+
+- Estratégias de redundância
+• Multi-zona: Distribuição de recursos entre diferentes zonas da mesma região.
+• Multi-região: Replicação entre regiões geográgicas distintas.
+• Load Balancer: Distribui o tráfego entre instâncias ativas.
+• Failover: Mecanismo automático de redirecionamento em caso de falha.
+
+- Alta disponibilidade em banco de dados
+• Read réplicas (réplicas de leitura).
+• Failover automático em bancos gerenciados (Cloud SQL, Firestore, Bigquery).
+• Backups automáticos e restauração ponto-a-ponto.
+
+- Alta disponibilidade com kubernetes
+• Múltiplos nós e múltiplos pods.
+• Autorreparo: reinício automático de pods com falha.
+• Service com loadbalancer distribui requisições.
+• Deploy com réplicas > 1 garante tolerância a falhas.
+
+-- Atividade em sala --
+
+1 - Aplicações bancárias, de serviços de venda, suporte e serviços de saúde.
+
+2 - Depende muito de o que está sendo afetado, pode ser na casa das centenas até os muitos milhares. Se o afetado faz uma média de R$ 200 por minuto, a prejuízo seria de R$ 12.000.
