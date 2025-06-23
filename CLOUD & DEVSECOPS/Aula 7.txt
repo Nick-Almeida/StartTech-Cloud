@@ -1,0 +1,33 @@
+-- Backup e recuperação de dados --
+
+- Importância do Backup
+• Proteção contra perda de dados acidental ou maliciosa
+• Cumprimento de normas de segurança e conformidade (LGPD)
+• Continuidade de negócios
+
+- Tipos de Backup
+• Completo: Cópia de todos os dados
+• Incremental: Cópia apenas das alterações desde o último Backup
+• Diferencial: Cópia das alterações desde o último backup completo
+
+- Estratégias de backup
+• 3-2-1 rule: 3 cópias, 2 mídias diferentes, 1 offsite
+• Backup automático: Agendamento por cron jobs ou políticas.
+• Backup como serviço: Ferramentas gerenciadas na nuvem (Cloud storage, filestore, cloud sql)
+
+- Recuperação de dados -
+• RTO (Recovery Time Objective): Tempo máximo aceitável para restaurar
+• RPO (Recovery Point Objective): Quanto de dado pode ser perdido
+• Testes periódicos de restauração são fundamentais
+
+- Recursos de backup no GCP
+• Cloud Storage: Armazenamento durável e versionável
+• Snapshots em disco: Ponto de restauração para VMs
+• Backup em Cloud SQL: Backups automáticos e manuais
+• Filestore backups: Snapshots de volumes de arquivos
+
+- Atividade em sala
+
+1 - A prioridade do backup deve ser de arquivos necessários para o funcionamento básico do aplicativo/programa.
+
+2 - Algumas ocasiões onde não foi possível realizar a transferência dos arquivos, o backup foi a alternativa para recuperar, mesmo que parcialmente.
