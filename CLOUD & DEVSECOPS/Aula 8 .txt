@@ -1,0 +1,44 @@
+-- Segurança na nuvem --
+
+- Conceito de segurança na nuvem
+• Conjunto de práticas e ferramentas para proteger dados, aplicações e infraestruturas na nuvem
+• Compartilhamento de responsabilidade: Provedor x cliente
+
+- Principais ameaças
+• Vazamento de dados
+• Configurações incorretas
+• Ataques DDOS
+• Injeção de código
+• Phishing e acesso não autorizado
+
+- Modelo de responsabilidade compartilhada (GCP)
+• GCP cuida da segurança da infraestrutura
+• cliente é responsável por:
+    • Configuração de acesso
+    • Proteção de dados e aplicações
+    • Monitoramento e auditoria
+
+- Boas práticas de segurança
+•  Uso de IAM (Identity and Access Management)
+•  Princípio do menor privilégio
+• Criptografia em repouso e em trânsito
+• Auditoria de atividades com Cloud Logging
+•  Monitoramento com Cloud Security Command Center
+
+- Ferramentas de segurança no GCP
+• IAM: Controle de permissões
+• VPC Firewall Rules: Controle de tráfego
+• Cloud KMS: Gerenciamento de chaves
+• Cloud Armor: Proteção contra ataques DDOS
+• Security Command Center: Visão unificada de riscos
+
+- Casos Práticos
+• Erro Comum: Bucket público por engano
+• Boa Prática: Chave de acesso com validade curta
+• Exemplo de ataque via permissão excessiva
+
+- Atividade em Sala
+
+1 - Senhas e credenciais de acesso, dados sensíveis, buckets de armazenamento, permissões de IAM.
+
+2 - A equipe de TI tem papel fundamental na implementação de medidas de segurança, mas seguir boas práticas e manter dados próprios seguros também é responsabilidade de cada colaborador.
