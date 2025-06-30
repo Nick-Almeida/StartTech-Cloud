@@ -1,0 +1,47 @@
+-- Cloud Devops e Pipelines de CI/CD --
+
+- O que é Devops?
+• Cultura e prática que une desenvolvimento e operações
+• Foco em automação, integração contínua e entrega frequente
+• Objetivo: Reduzir erros, acelerar o ciclo de entrega e aumentar a confiabilidade
+
+- Conceitos principais de CI/CD
+• CI (Integração Contínua): Automatizar testes e validação a cada commit
+• CD (Entrega Contínua): Automatizar deploy para ambientes
+• CD (Implantação Contínua): Deploy automático direto para produção (com validações)
+
+- Ferramentas populares
+• CI: Github Actions, Gitlab CI, Jenkins, Cloud Build
+• CD: Spinnaker, Argo CD, Cloud Deploy
+• Infra com código: Terraform, Ansible, Cloud Deployment Manager
+
+- Cloud Build no GCP
+• Serviço de CI/CD totalmente gerenciado
+• Executa comandos definidos em arquivos cloudbuild.yaml
+• Permite criar pipelines para build, teste e deploy (Incluive para GKE, App Engine ou Cloud Run)
+
+-- Atividade em Sala --
+
+1 - Considerando um projeto MVP e um time pequeno, as etapas de pipeline essenciais são:
+
+1° Controle de Versão e Pull Requests
+
+2° Instalação de Dependências
+Automatizar a instalação das dependências do projeto.
+
+3° Execução de Testes Automatizados
+Rodar testes unitários a cada push ou pull request.
+
+4° Build/Compilação
+Gerar o "Executável" do projeto para garantir que o build está funcionando.
+
+5° Análise de Qualidade de Código
+Rodar ferramentas de análise estática para manter padrões mínimos.
+
+6° Deploy Automatizado em Ambiente de Homologação
+Deploy automático em um ambiente de testes/homologação para validação rápida.
+
+7° Deploy em Produção (com aprovação manual)
+Deploy para produção somente após aprovação manual, garantindo controle.
+
+2 - Faz sentido automatizar o deploy para produção quando o time/empresa tem confiança de que o código que chega ao final da pipeline está estável e seguro para ser publicado sem intervenção manual.
