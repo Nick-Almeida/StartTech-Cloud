@@ -4,9 +4,11 @@ apt install docker
 apt install docker-compose
 docker --version
 docker-compose --version
+docker-compose up -m = subir o container
 docker ps
 portainer - app
 cd - navega as pastas
 dir - mostra os conteúdos da pasta
 mkdir - cria pasta
 vim docker-compose.yml
+cat - ler arquivos
