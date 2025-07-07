@@ -1,0 +1,37 @@
+-- Finops --
+
+- O que é Finops?
+• Prática de governança financeira na nuvem
+• Une times de engenharia, finanças e negócios
+• Objetivo: Obter máximo valor do investimento em cloud
+
+- Princípios de Finops
+• Colaboração entre áreas
+• Uso de métricas para decisões
+• Atribuição clara de custos (ownership)
+• Ações contínuas de otimização
+
+- Desafios comuns
+• Falta de visibilidade sobre o consumo
+• Contas e recursos não organizados
+• Provisionamento excessivo
+• Custos não atribuídos corretamente
+
+- Ciclo de Finops (Build -> Run -> Optimize)
+• Build: Planejamento e previsibilidade de custos
+• Run: Monitoramento e alocação por projetos e times
+• Optmize: Eliminação de desperdícios e melhoria contínua
+
+- Ferramentas GCP para Finops
+• Cloud Billing reports
+• Budget & Alerts
+• Cost table e cost breakdown
+• Recomendations engine (para savings)
+• Bigquery billing export
+
+- Boas práticas de Finops
+• Definir orçamentos por projeto/time
+• Automatizar desligamento de recursos ociosos
+• Monitorar recursos subutilizados
+• Analisar picos e tendências
+• Criar dashboard com bigquery + looker studio
