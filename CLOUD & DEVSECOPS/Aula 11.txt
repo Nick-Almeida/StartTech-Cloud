@@ -13,7 +13,7 @@
 
 - Deploy e Provisionamento
 • AWS: Cloudformation, CDK
-• Azure: Arm Templates, Bicep
+• Azure: ARM Templates, Bicep
 • GCP: Deployment Manager, Terraform
 
 - Interface de acesso
