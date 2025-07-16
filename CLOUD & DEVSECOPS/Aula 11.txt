@@ -1,0 +1,32 @@
+-- Ferramentas GCP, AWS e Azure --
+
+- Por que Multicloud?
+• Evitar dependência de fornecedor único (lock-in)
+• Resiliência e disponibilidade global
+• Escolher melhores serviços de cada plataforma
+• Otimização de custos
+
+- Identidade e acesso
+• AWS: IAM (Identity and Access Management)
+• Azure: Active Directory + RBAC
+• GCP: IAM + Resource Hierarchy (Org > Folder > Project)
+
+- Deploy e Provisionamento
+• AWS: Cloudformation, CDK
+• Azure: Arm Templates, Bicep
+• GCP: Deployment Manager, Terraform
+
+- Interface de acesso
+• Console Web: Interface Gráfica
+• CLI: Comandos via terminal
+• SDKs e APIs: Integração com aplicações
+
+- Serviços Servless
+• AWS Lambda
+• Azure Function
+• Google Cloud Functions
+
+- Similitudes e diferenças
+• Conceitos base são semelhantes (IAM, VPC, Storage, Compute)
+• Diferenças em nomenclatura, limites, precificação e integrações nativas
+• Necessário aprender "Tradução" entre plataformas
