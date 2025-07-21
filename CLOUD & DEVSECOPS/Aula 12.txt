@@ -1,0 +1,47 @@
+-- Automação com Infraestrutura como Código (IAC) --
+
+- O que é IAC?
+• Prática de definir infraestrutura com arquivos de código
+• Reproduzível, versionável, auditável
+• Substitui processos manuais por automação
+
+- Benefícios do IAC
+• Redução de erros humanos
+• Consistência entre ambientes (DEV, TEST, PROD)
+• Provisionamento rápido e automatizado
+• Facilidade para rollback e auditoria
+
+- Declarativo vs Imperativo
+• Declarativo (Ex: Terraform): Descreve o estado desejado
+• Imperativo (Ex: Ansible): Descreve os passos para alcançar o estado
+
+- IAC com Terraform
+• Open-source, popular e extensível
+• Provider para GCP, AWS, Azure, etc...
+
+resource "google_compute_instance" "vm_exemplo" {
+    name = "vm-1"
+    machine_type = "e2-micro"
+    zone = "us-central1-a"
+    boot_disk {
+        initialize_params {
+            image = "debian-cloud/debian-11"
+        }
+    }
+    network_interface {
+        network = "default"
+        access_config {}
+    }
+}
+
+- Etapas típicas com Terraform
+• Escreve o código: .TF
+• Executa Terraform INIT
+• Executa Terraform PLAN
+• Executa Terraform APPLY
+
+- Boas práticas
+• Separar ambientes (DEV, STAGING, PROD)
+• Usar arquivos de variáveis
+• Armazenar o estado remoto (Ex: GCS, S3, Terraform cloud)
+• Controlar mudanças via Git
