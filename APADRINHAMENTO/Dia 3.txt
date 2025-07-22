@@ -1,0 +1,61 @@
+sudo apt update
+sudo apt install strongswan -y
+-
+sudo vim /etc/ipsec.conf
+-
+config setup
+    charondebug="ike 1, knl 1, cfg 1, net 1"
+
+conn VPNTOTVS
+    left=%defaultroute
+    leftid= <seu ip público>
+    leftsubnet=<ip da sua máquina>.0/24
+    right=189.126.141.100 <ip público>
+    rightsubnet=10.105.2.0/24 <ip da máquina>
+    type=tunnel
+    auto=start
+    keyexchange=ikev2
+    authby=secret
+    ike=aes256-sha256-modp2048
+    ikelifetime=86400s
+    lifetime=86400s
+    rekey=yes
+    dpdaction=restart
+    dpddelay=30s
+    dpdtimeout=120s
+_______
+sudo vim /etc/ipsec.secrets
+138.219.88.40 189.126.141.100 : PSK "4db9xb33u6re"
+<seu ip público> + <ip público da máquina> : <"senha">
+
+_______
+vim /etc/sysctl.conf
+# adicione ou descomente:
+net.ipv4.ip_forward = 1
+net.ipv4.conf.all.send_redirects = 0
+net.ipv4.conf.default.send_redirects = 0
+net.ipv4.conf.ens33.send_redirects = 0
+
+depois:
+sudo sysctl -p
+-----
+
+analise rotas:
+ip route show
+
+_
+PARA MAQUINAS NA MESMA SUBREDE:
+
+Maquina B:
+sudo ip route add 10.105.2.0/24 via 192.168.112.147
+
+MAQUINA A STRONGWAN: 
+__
+sudo iptables -A FORWARD -s 192.168.112.0/24 -d 10.105.2.0/24 -j ACCEPT
+sudo iptables -A FORWARD -s 10.105.2.0/24 -d 192.168.112.0/24 -j ACCEPT
+__
+sudo netfilter-persistent save
+
+-
+Acompanhar keep alive:
+tail -f /var/log/syslog | grep -i 'ike\|child_sa'

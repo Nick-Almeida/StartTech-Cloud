@@ -12,3 +12,7 @@ dir - mostra os conteúdos da pasta
 mkdir - cria pasta
 vim docker-compose.yml
 cat - ler arquivos
+systemctl restart ssh
+systemctl status ssh
+telnet <ip> <porta> - envio de pacote teste
+traceroute
