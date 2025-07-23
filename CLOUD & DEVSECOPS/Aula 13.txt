@@ -1,0 +1,11 @@
+-- Agilidade e Governança na nuvem --
+
+- O que é governança nan nuvem?
+• Conjunto de políticas, processos e controles
+• Garante uso seguro, eficiente e conforme da nuvem
+• Alinha TI aos objetivos de negócio
+
+- O que é agilidade?
+• Capacidade de entregar valor rapidamente e com qualidade
+• Baseada em ciclos curtos, feedbacks contínuo e adaptação
+• Suporte essencial da nuvem: provisionamento rápido, automação e escala
