@@ -1,0 +1,31 @@
+-- Monitoramento e Logging na nuvem --
+
+- Por que monitorar?
+• Detectar falhas e problemas de desempenho
+• Medir uso e comportamento de aplicações
+• Analisar logs para auditoria e troubleshooting
+• Garantir confiabilidade e SLA dos serviços
+
+- Conceitos fundamentais
+• Monitoramento: Coleta de métricas em tempo real
+• Logging: Registro persistente de enventos e atividades
+• Alertas: Noticações baseadas em métricas ou logs
+• Observabilidade: Capacidade de entender o sistema baseado em sua saída
+
+- Tipos de métricas e logs
+• Infraestrutura: CPU, memória, disco, rede
+• Aplicações: Tempo de resposta, erros, throughput
+• Segurança: Acessos, negações, auditoria
+• Customizadas: Logs da aplicação, métricas de negócio
+
+- Boas Práticas
+• Centralizar logs em um único serviço
+• Padronizar estrutura de logs
+• Criar dashboards úteis para o time
+• Configurar alertar com ações (e-mails, scripts, webhooks)
+
+- GCP: Cloud monitoring + Logging
+• Integrado com GKE, App engine, Cloud run e compute engine
+• Suporte a métricas customizadas e logs estruturados
+• Filtros poderosos para diagnóstico
+• Dashnoards customizáveis
