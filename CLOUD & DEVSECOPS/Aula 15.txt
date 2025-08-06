@@ -1,0 +1,43 @@
+-- Carreira em Cloud e Certificações --
+
+- Mercado de trabalho em Cloud
+• Alta demanda por profissionais qualificados
+• Crescimento acelerado de adoção da nuvem em empresas
+• Salários competitivos e oportunidade globais
+• Necessidade de atualização constante
+
+- Perfis de atuação em Cloud
+• Arquiteto de Soluções em Cloud
+• Engenheiro de DevOps/SRE (Site Reliability Engineering)
+• Especialista em Segurança na nuvem
+• Engenheiro de dados/ML (Machine Learning)
+• Analista FinOps (Gerenciamento de custos)
+
+- Trilhas de certificação AWS
+• Fundamentals: AWS Certified Cloud Practitioner
+• Associate: Solution Architect, Developer, Sysops Administrator
+• Professional: Solutions Architect, DevOps Engineer Professional
+• Especialistas: Security, Networking, Data Analytics, Machine Learning
+
+- Trilhas de certificação Azure
+• Fundamentals: AZ-900 Azure Fundamentals
+• Associate: Solutions Architect, Developer, Security Engineer
+• Expert: Solutions Architect Expert, Devops Engineer Expert
+• Especialistas: AI Engineer, Data Engineer, Networking
+
+- Trilhas de certificação GCP
+• Foundational: Cloud Digital Leader
+• Associate: Associate Cloud Engineer
+• Professional: Cloud Architect, Data Engineer, DevOps Engineer, Security Engineer, ML Engineer
+
+- Benefícios das Certificações
+• Validação de conhecimento no mercado
+• Aumento da empregabilidade e networking
+• Reconhecimento internacional
+• Possibilidade de trabalhar em projetos globais
+
+- Boas práticas de estudo
+• Seguir a trilha oficial do provedor
+• Criar laboratórios práticos
+• Resolver simulados e questões de exames anteriores
+• Participar de comunidades e grupos de estudo
