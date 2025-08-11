@@ -16,3 +16,4 @@ systemctl restart ssh
 systemctl status ssh
 telnet <ip> <porta> - envio de pacote teste
 traceroute
+docker system prune -af - Limpa sujeira docker
