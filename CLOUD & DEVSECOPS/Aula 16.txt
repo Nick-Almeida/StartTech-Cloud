@@ -1,0 +1,48 @@
+-- Introdução ao Docker --
+
+- O que é o Docker?
+• Plataforma para criar, distribuir e executar aplicações em containers
+• Permite empacotar aplicações com todas as dependências
+• Funciona de forma consistente em diferentes ambientes
+
+- Conceitos básicos
+• Imagem: Modelo imutável com aplicação + dependências
+• Container: Instância em execução de uma imagem
+• Dockerfile: Script para criar uma imagem personalizada
+• Docker Hub: Repositório público de imagens
+
+- Benefícios do Docker
+• Portabilidade
+• Isolamento de aplicações
+• Consistência entre ambientes
+• Escalabilidade simplificada
+
+- Principais comandos
+
+• Verifica versão
+docker --version
+
+• Baixa uma imagem
+docker pull nginx
+
+• Listar imagens
+docker images
+
+• Executar um container
+docker run -d -p 8080:80 nginx
+
+• Listar containers
+docker ps
+
+• Parar container
+docker stop <container-id>
+
+- Exemplo de Dockerfile
+
+FROM node:20-alpine
+WORKDIR /app
+COPY package*.json ./
+RUN npm install
+COPY . .
+EXPOSE 3000
+CMD ["npm", "start"]
